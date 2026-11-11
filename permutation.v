@@ -24,11 +24,12 @@ module permutation(
     input wire [1599:0] in,
     input wire clk, rst, start,
     output reg done = 1'b0,
-    output wire [1599:0] out
+    output wire [1599:0] out,
+    output reg busy = 1'b0
     );
     
     reg [4:0] round = 5'd0;
-    reg busy = 1'b0;
+    //reg busy = 1'b0;
     reg [1599:0] state;
     wire [1599:0] round_out;
     

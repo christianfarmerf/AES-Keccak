@@ -1,1 +1,1 @@
-# AES-Keccak
+# SHAKE-Verilog
